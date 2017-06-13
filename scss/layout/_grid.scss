@@ -1,0 +1,55 @@
+.gallery {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #d1d1c9;
+}
+.rafting {
+  background: url(../img/heroRaft.jpg)top center no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 300px;
+  margin: 4% auto 1% auto;
+}
+
+.base {
+  background: url(../img/base.jpg)top center no-repeat;
+  background-size: cover;
+
+  width: 90%;
+  height: 300px;
+  margin: 4% auto 1% auto;
+}
+
+.backpacking {
+  background: url(../img/backpacking.jpg)top center no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 300px;
+  margin: 4% auto 1% auto;
+}
+
+.canoe {
+  background: url(../img/home-canoe.jpg)top center no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 300px;
+  margin: 4% auto 1% auto;
+}
+
+.photography {
+  background: url(../img/home-photo.jpg)top center no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 300px;
+  margin: 4% auto 1% auto;
+}
+
+.custom {
+  background: url(../img/home-custom.jpg)top center no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 300px;
+  margin: 4% auto 5% auto;
+}

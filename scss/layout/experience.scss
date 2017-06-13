@@ -1,0 +1,44 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #e6e6e0;
+  padding: 10px;
+  & h3 {
+    // color: #c9c9c2;
+  }
+  & hr {
+    width: 30%;
+    height: 5px;
+    background-color: #c9c9c2;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 20px;
+  }
+  & p a {
+    text-decoration: none;
+    color: #dc7725;
+  }
+  & button {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #dc7725;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+  & a {
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    width: 150px;
+    padding-bottom: 5px;
+    color: black;
+    margin: 0 auto;
+  }
+  & a:hover {
+    border-bottom: 1px dotted #dc7725;
+    color: #dc7725;
+  }
+}
