@@ -316,6 +316,7 @@ hr {
   text-align: center;
   background-image: url(../img/bg-categorynav.jpg);
   background-size: cover;
+  padding: 5% 0;
 }
 .footer a {
   text-decoration: none;
@@ -325,12 +326,14 @@ hr {
   margin: 10px auto;
   border-bottom: 1px solid lightgray;
   width: 70%;
+  padding: 2.5% 0;
 }
 .footer a:hover {
   color: white;
 }
 .footer h3 {
   color: white;
+  padding: 5% 0;
 }
 .footer h3 a {
   color: #dc7725;
@@ -339,6 +342,7 @@ hr {
   background-color: grey;
   border: none;
   border-radius: 5px;
+  margin: 6% 1%;
 }
 .footer button:hover {
   border: 1px solid white;
