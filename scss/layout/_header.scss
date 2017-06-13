@@ -13,9 +13,10 @@
   width: 100%;
   background: url(../img/hero-1.jpg)top center no-repeat;
   background-size: cover;
-  border: 1px solid red;
+  // border: 1px solid red;
   // display: flex;
   color: white;
+  padding-top: 5%;
 }
 .nav {
   display: flex;
@@ -83,16 +84,19 @@ hr {
 // }
 .play-button {
   width: 20%;
-  height: 55px;
-  border-radius: 100%;
-  padding: 5%;
+  height:0;
   background-color: white;
   opacity: .6;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   border: 1px solid orange;
+  padding-bottom: 20%;
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+  border-radius: 50%;
 }
+
 
 // .play-icon {
 //   border: 1px solid red;

@@ -69,8 +69,8 @@
   width: 100%;
   background: url(../img/hero-1.jpg) top center no-repeat;
   background-size: cover;
-  border: 1px solid red;
   color: white;
+  padding-top: 5%;
 }
 
 .nav {
@@ -135,15 +135,17 @@ hr {
 
 .play-button {
   width: 20%;
-  height: 55px;
-  border-radius: 100%;
-  padding: 5%;
+  height: 0;
   background-color: white;
   opacity: .6;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   border: 1px solid orange;
+  padding-bottom: 20%;
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+  border-radius: 50%;
 }
 
 .experience {
@@ -152,14 +154,17 @@ hr {
   text-align: center;
   background-color: #e6e6e0;
   padding: 10px;
+  border-bottom: 2px solid lightgray;
+}
+.experience h3 {
+  margin-top: 15%;
 }
 .experience hr {
   width: 30%;
   height: 5px;
   background-color: #c9c9c2;
-  margin: 0 auto;
+  margin: 20px auto;
   border: none;
-  margin-bottom: 20px;
 }
 .experience p a {
   text-decoration: none;
@@ -181,10 +186,64 @@ hr {
   width: 150px;
   padding-bottom: 5px;
   color: black;
-  margin: 0 auto;
+  margin: 5% auto 10% auto;
 }
 .experience a:hover {
   border-bottom: 1px dotted #dc7725;
+  color: #dc7725;
+}
+
+.quote {
+  background-color: #e6e6e0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+}
+.quote .profileCircle {
+  width: 20%;
+  height: 0;
+  background-color: white;
+  opacity: .6;
+  margin: 6% auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20%;
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+  border-radius: 50%;
+}
+.quote h2 {
+  margin-top: 20%;
+  font-weight: lighter;
+}
+.quote h3 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #e6e6e0;
+  padding: 10px;
+  padding-bottom: 10%;
+  border-bottom: 2px solid lightgray;
+}
+.destinations h3 {
+  margin-top: 10%;
+}
+.destinations hr {
+  width: 30%;
+  height: 5px;
+  background-color: #c9c9c2;
+  margin: 20px auto;
+  border: none;
+}
+.destinations p a {
+  text-decoration: none;
   color: #dc7725;
 }
 
