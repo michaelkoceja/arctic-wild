@@ -99,3 +99,104 @@
     color: #dc7725;
   }
 }
+.guides {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/heroGuide.jpg);
+  background-size: cover;
+  color: white;
+  padding: 10px;
+  & h3 {
+    margin-top: 10%;
+
+  }
+  & h2 {
+    margin-bottom: 1%;
+    font-weight: lighter;
+  }
+  & hr {
+    width: 30%;
+    height: 5px;
+    background-color: #c9c9c2;
+    margin: 20px auto;
+    border: none;
+  }
+  & p {
+    color: #c7be99;
+  }
+
+  & button {
+    width: 150px;
+    height: 50px;
+    margin: 10% auto;
+    background-color: #dc7725;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+  & img {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/bg-footercopyright.jpg);
+  // background-size: cover;
+  color: white;
+  padding: 5% 10px;
+  h2 {
+    padding-bottom: 5px;
+  }
+  & a {
+    text-decoration: none;
+    color: #dc7725;
+  }
+  & a:hover {
+    color: tint(#dc7725, 20%);
+  }
+  & h4 {
+    color: #8e8e8a;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/bg-categorynav.jpg);
+  background-size: cover;
+  & a {
+    text-decoration: none;
+    color: #8e8e8a;
+  }
+  & p {
+    margin: 10px auto;
+    border-bottom: 1px solid lightgray;
+    width: 70%;
+  }
+  & a:hover {
+    color: white;
+  }
+  & h3 {
+    color: white;
+  }
+  & h3 a {
+    color: #dc7725;
+  }
+  & button {
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+  }
+  & button:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: tint(grey, 20%);
+  }
+}

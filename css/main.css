@@ -247,4 +247,103 @@ hr {
   color: #dc7725;
 }
 
+.guides {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/heroGuide.jpg);
+  background-size: cover;
+  color: white;
+  padding: 10px;
+}
+.guides h3 {
+  margin-top: 10%;
+}
+.guides h2 {
+  margin-bottom: 1%;
+  font-weight: lighter;
+}
+.guides hr {
+  width: 30%;
+  height: 5px;
+  background-color: #c9c9c2;
+  margin: 20px auto;
+  border: none;
+}
+.guides p {
+  color: #c7be99;
+}
+.guides button {
+  width: 150px;
+  height: 50px;
+  margin: 10% auto;
+  background-color: #dc7725;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.guides img {
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/bg-footercopyright.jpg);
+  color: white;
+  padding: 5% 10px;
+}
+.copy h2 {
+  padding-bottom: 5px;
+}
+.copy a {
+  text-decoration: none;
+  color: #dc7725;
+}
+.copy a:hover {
+  color: #e39251;
+}
+.copy h4 {
+  color: #8e8e8a;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/bg-categorynav.jpg);
+  background-size: cover;
+}
+.footer a {
+  text-decoration: none;
+  color: #8e8e8a;
+}
+.footer p {
+  margin: 10px auto;
+  border-bottom: 1px solid lightgray;
+  width: 70%;
+}
+.footer a:hover {
+  color: white;
+}
+.footer h3 {
+  color: white;
+}
+.footer h3 a {
+  color: #dc7725;
+}
+.footer button {
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+}
+.footer button:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #999999;
+}
+
 /*# sourceMappingURL=main.css.map */
