@@ -72,20 +72,20 @@ hr {
   background-color: white;
   margin: 0 auto;
   border: none;
+  margin-bottom: 20px;
 }
 
-.play {
-  background-image: url(../img/play.png);
-  background-repeat: no-repeat;
+.play-button {
   width: 20%;
   height: 55px;
-  border-radius: 100px;
+  border-radius: 100%;
   padding: 5%;
   background-color: white;
   opacity: .6;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  border: 1px solid orange;
 }
 
 /*# sourceMappingURL=main.css.map */
