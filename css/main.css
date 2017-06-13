@@ -50,4 +50,42 @@
   width: 32px;
 }
 
+.alaska {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 60px 22px 0 22px;
+  letter-spacing: 1px;
+}
+.alaska img {
+  margin-bottom: 10px;
+}
+.alaska h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 70%;
+  height: 5px;
+  background-color: white;
+  margin: 0 auto;
+  border: none;
+}
+
+.play {
+  background-image: url(../img/play.png);
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 55px;
+  border-radius: 100px;
+  padding: 5%;
+  background-color: white;
+  opacity: .6;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=main.css.map */
