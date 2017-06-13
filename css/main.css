@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 480px;
+  width: 100%;
+  background: url(../img/hero-1.jpg) top center no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 20px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.nav-left img {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.nav-right button {
+  background: transparent;
+  border: none;
+}
+.nav-right button img {
+  height: 32px;
+  width: 32px;
+}
+
+/*# sourceMappingURL=main.css.map */
